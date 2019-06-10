@@ -1,0 +1,66 @@
+/* 注册页面 */
+.register_con{
+	width:700px;
+	height:560px;
+	margin:50px auto 0;
+	background:url(../images/interval_line.png) 300px top no-repeat;
+}
+
+.l_con{width:300px;}
+.reg_logo{width:200px;height:76px;float:right;margin-right:30px;}
+.reg_slogan{width:300px;height:30px;float:right;text-align:right;font-size:24px;color:#69a81e;margin:20px 30px 0 0;}
+.reg_banner{width:251px;height:329px;background:url(../images/register_banner.png) no-repeat;float:right; margin:20px 10px 0 0;opacity:0.5}
+
+
+.r_con{width:400px;}
+.reg_title{width:360px;height:50px;float:left;margin-left:30px;border-bottom:1px solid #e0e0e0}
+.reg_title h1{height:50px;line-height:50px;float:left;font-size:24px;color:#a8a8a8;font-weight:bold;}
+.reg_title a{float:right;height:20px;line-height:20px;font-size:16px;color:#5fb42a;padding-right:20px;background:url(../images/icons02.png) 35px 3px no-repeat;margin-top:15px}
+
+.reg_form{width:360px;margin:25px 0 0 30px;float:left;position:relative;}
+.reg_form li{height:65px;}
+.reg_form li label{width:70px;height:30px;padding-top:6px;line-height:30px;float:left;font-size:14px;color:#a8a8a8}
+.reg_form li input{width:288px;height:38px;border:1px solid #e0e0e0;float:left;outline:none;text-indent:10px;background-color:#f8f8f8}
+.reg_form li.agreement{height:50px;}
+.reg_form li.agreement input{width:15px;height:15px;float:left;margin-top:8px;}
+.reg_form li.agreement label{width:300px;float:left;padding-top:0;margin-left:10px;}
+.reg_form li.reg_sub input{width:360px;margin-top:10px;height:40px;background-color:#47aa34;font-size:18px;color:#fff;font-family:'Microsoft Yahei';cursor:pointer;}
+.reg_form li.yanzheng input{width:144px;}
+.reg_form li.yanzheng img{margin-left:20px;}
+.reg_form li .error_tip{display:none;float:left;height:25px;line-height:25px;margin-left:70px;color:#e62e2e;}
+.reg_form li.yanzheng span{position: absolute;left:0;top:300px;}
+.reg_form li .error_tip2{float:left;height:20px;line-height:20px;color:#e62e2e;display:none;}
+
+
+/* 页面底部样式 */
+.footer{
+    height:145px;
+    border-top:2px solid #4ab14e;
+    margin-top:30px;
+}
+
+.footer .links{
+    text-align:center;
+    /*有边框就没有margin-top塌陷*/
+    margin-top:40px;
+}
+
+.footer .links a{
+    color:#4e4e4e;
+}
+
+.footer .links a:hover{
+    color:#f80;
+}
+
+.footer .links span{
+    color:#4e4e4e;
+    margin:0 10px;
+}
+
+.footer p{
+    text-align: center;
+    line-height:27px;
+    color:#4e4e4e;
+    margin-top:10px;
+}
